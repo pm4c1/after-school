@@ -4,6 +4,25 @@ hashset
  - null 요소도 허용이 된다.
  - 중복을 허용하지 않는다. ( 매력적인 부분 )
 
+HashMap
+- ValueType put(KeyType, ValueType value)
+  - HashMap에 데이터를 저장한다. 첫 번째 매개변수는 하당 데이터의 key 값, 두 번째 매개변수는 해당 key에 해당하는 value 값이다.
+  - 반환하는 값은 해시맵 내에 동일한 key에 해당하는 값이 있다면 그 key에 대한 value를 반환한다.
+- ValueType get(KeyType key)
+  - key 값에 대한 value 값을 반환한다.
+- ValueType getOrDefault(KeyType key, 0)
+  - key값에 대한 value 값을 반환한다. key값이 없으면 default값인 0을 반환한다.
+- ValueType romove(keyType key)
+  - HashMap에서 key에 해당하는 데이터를 삭제한다.
+- boolean containsKey(KeyType key)
+  - HashMap 안에 해당 key가 있다면 true, 없다면 false를 반환한다.
+- void clear()
+  - HashMap 안의 모든 데이터를 삭제한다.
+- int isEmpty()
+  - HashMap 안에 데이터가 없다면 true, 있다면 false를 반환한다.
+- int size()
+  - HashMap 안에 있는 데이터의 개수를 반환한다.
+
 중복을 걸러내는 과정
  - 객체를 저장하기 전에 먼저 객체의 hashCode() 메소드를 호출해서
    hashCode를 얻어 낸 다음 저장되어 있는 객체들의 hashCode와 비교한 뒤 
