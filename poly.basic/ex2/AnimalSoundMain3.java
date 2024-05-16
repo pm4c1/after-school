@@ -18,3 +18,9 @@ public class AnimalSoundMain3 {
         System.out.println("동물 소리 테스트 종료\n");
     }
 }
+
+/*
+2가지 문제점
+1. Animal 클래스를 생성할 수 있는 문제
+2. Animal 클래스를 상속 받는 곳에서 sound() 메서드 오버라이딩 하지 않을 가능성
+ */
