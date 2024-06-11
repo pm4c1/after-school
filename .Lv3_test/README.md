@@ -1,4 +1,4 @@
-## 다형성 테스트
+![image](https://github.com/pm4c1/after-school/assets/122862249/e5901f2f-c4db-4b65-a341-fb0319f40279)## 다형성 테스트
 
 ---
 
@@ -9,7 +9,8 @@
 내림차순으로 정렬하는 descending() 메서드가 있다.**
 - **알고리즘에 대한 설명을 출력하는 description() 메서드도 존재한다.**
 
-![Untitled]([https://prod-files-secure.s3.us-west-2.amazonaws.com/939ce19d-66ea-446c-87fc-d3eb89fc1b28/08493e45-28d3-47dd-92f5-be249c3c01aa/Untitled.png](https://file.notion.so/f/f/939ce19d-66ea-446c-87fc-d3eb89fc1b28/08493e45-28d3-47dd-92f5-be249c3c01aa/Untitled.png?id=fde1605c-823d-4535-84ec-23458c6d9848&table=block&spaceId=939ce19d-66ea-446c-87fc-d3eb89fc1b28&expirationTimestamp=1718186400000&signature=wcMGBcOiPSH98oyJ2hUsQIKO3S5djAKiufgWyK15JJw&downloadName=Untitled.png))
+![image](https://github.com/pm4c1/after-school/assets/122862249/692a6bbd-ed16-4c17-8375-8c17243c6b23)
+
 
 - **정렬 기능은 세 클래스가 구현했다.**
     - **실제 숫자를 정렬하지 않고 설명만 출력했다.**
