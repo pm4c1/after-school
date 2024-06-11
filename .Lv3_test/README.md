@@ -1,4 +1,3 @@
-![image](https://github.com/pm4c1/after-school/assets/122862249/e5901f2f-c4db-4b65-a341-fb0319f40279)## 다형성 테스트
 
 ---
 
