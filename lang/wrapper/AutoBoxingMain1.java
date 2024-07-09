@@ -9,5 +9,8 @@ public class AutoBoxingMain1 {
 
         // Wrapper -> Primitive
         int unboxedValue = boxedValue.intValue();
+
+        System.out.println("boxedValue = " + boxedValue);
+        System.out.println("unboxedValue = " + unboxedValue);
   }
 }
