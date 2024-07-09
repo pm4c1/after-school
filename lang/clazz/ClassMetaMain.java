@@ -17,3 +17,6 @@ public class ClassMetaMain {
         Method[] methods = clazz.getDeclaredMethods();
         for (Method  method : methods)
             System.out.println("Method: " + method);
+
+        // 상위 클래스 정보 출력
+        System.out.println("SuperClass: " + clazz.getSuperclass().getName());
