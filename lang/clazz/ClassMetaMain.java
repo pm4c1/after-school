@@ -12,3 +12,8 @@ public class ClassMetaMain {
         Field[] fields = clazz.getDeclaredFields();
         for (Field field : fields)
             System.out.println("Field: " + field.getType() + " " + field.getName());
+
+        // 모든 메서드 출력
+        Method[] methods = clazz.getDeclaredMethods();
+        for (Method  method : methods)
+            System.out.println("Method: " + method);
