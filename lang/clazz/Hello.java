@@ -1,3 +1,3 @@
 package lang.clazz;
 
-public
+public class
