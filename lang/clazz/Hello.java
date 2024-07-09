@@ -2,5 +2,5 @@ package lang.clazz;
 
 public class Hello {
   
-    public
+    public String
 }
