@@ -23,3 +23,6 @@ public class ClassMetaMain {
 
         // 인터페이스 정보 출력
         Class[] interfaces = clazz.getInterfaces();
+
+        for (Class i : interfaces)
+            System.out.println("Interface: " + i.getName());
