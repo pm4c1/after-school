@@ -14,3 +14,10 @@ public class AutoBoxingMain1 {
         System.out.println("unboxedValue = " + unboxedValue);
   }
 }
+/*
+Boxing : valueOf()
+unBoxing : xxxValue()
+
+- 개발자들이 오랜기간 개발을 하다 보니 기본형을 래퍼 클래스로 변환하거나 또는 래퍼 클래스를 기본형으로 변환하는 일이 자주 발생했다.
+- 자바 1.5부터 오토 박싱, 오토 언박싱을 지원한다.
+*/
