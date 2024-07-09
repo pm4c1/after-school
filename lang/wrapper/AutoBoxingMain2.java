@@ -5,3 +5,11 @@ public class AutoBoxingMain2 {
         // Primitive -> Wrapper
         int value = 7;
         Integer boxedValue = value;
+
+        // Wrapper -> Primitive
+        int unboxedValue = boxedValue;
+
+        System.out.println("boxedValue = " + boxedValue);
+        System.out.println("unboxedValue = " + unboxedValue);
+    }
+}
