@@ -1,3 +1,5 @@
 package lang.clazz;
 
-public class
+public class Hello {
+  
+}
