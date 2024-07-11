@@ -1,19 +1,34 @@
 package lang.math.test;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class LottoGenerator {
 
-    int[] lottoNumbers = new int[6];
-    Random r = new Random();
+    private final Random random = new Random();
+    private int[] lottoNumbers;
+    private int cnt;
 
     public int[] generate(){
-        for (int i = 0; i < 6; i++) {
-            lottoNumbers[i] = r.nextInt(45) + 1;
+        lottoNumbers = new int[6];
+        cnt = 0;
+        while(cnt < 6){
+            int number = random.nextInt(45) + 1;
 
+            if (isUnique(number)){ // bool 타입이라 true 면 실행 false 면 if 문을 나간다.
+                lottoNumbers[cnt] = number;
+                cnt++;
+            }
         }
 
         return lottoNumbers;
+    }
+
+    private boolean isUnique(int num){
+        for (int i=0; i<cnt; i++){
+            if(lottoNumbers[i] == num){
+                return false;
+            }
+        }
+        return true;
     }
 }
