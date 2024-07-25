@@ -1,6 +1,6 @@
 package generics;
 
-public class GenericeMain {
+public class GenericsMain {
 
     public static void main(String[] args) {
         int[] iArray = {1, 2, 3, 4, 5};
